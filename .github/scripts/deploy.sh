@@ -1,7 +1,7 @@
-cd ~/twendee-cms-base/
+cd ~/twd-cms-be/
 git checkout main
 git pull 
 yarn
-yarn run prisma generate
+npx prisma generate
 yarn build
 pm2 restart twendee-cms
